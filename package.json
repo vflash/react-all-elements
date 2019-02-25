@@ -1,0 +1,29 @@
+{
+    "version": "1.0.0",
+    "name": "react-all-elements",
+    "description": "json to react.js",
+    "keywords": [
+        "elements",
+        "react",
+        "js"
+    ],
+    "main": "./react-all-elements.js",
+    "homepage": "https://github.com/vflash/react-all-elements",
+    "bugs": {
+        "url": "https://github.com/vflash/react-all-elements/issues"
+    },
+    "author": {
+        "name": "Vopilovskiy Konstantin",
+        "email": "flash.vkv@gmail.com"
+    },
+
+    "files": [
+        "LICENSE",
+        "README.md",
+        "react-all-elements.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/vflash/react-all-elements.git"
+    }
+}
