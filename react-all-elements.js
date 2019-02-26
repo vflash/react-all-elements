@@ -6,7 +6,7 @@ var createElement = React.createElement;
 
 
 React.createElement = function(type, props) {
-    if (typeof type !== 'function') {
+    if (typeof type !== 'function' || !type.prototype.isReactComponent) {
         return createElement.apply(this, arguments);
     };
 
